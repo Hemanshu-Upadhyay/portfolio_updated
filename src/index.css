@@ -1,16 +1,16 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   background: #010103;
-  font-family: 'General Sans', sans-serif;
+  font-family: "General Sans", sans-serif;
 }
 
 @layer utilities {
@@ -161,11 +161,11 @@ body {
 
 .arrow-gradient {
   background-image: linear-gradient(
-          to right,
-          rgba(255, 255, 255, 0.1) 10%,
-          rgba(255, 255, 255, 0.000025) 50%,
-          rgba(255, 255, 255, 0.000025) 50%,
-          rgba(255, 255, 255, 0.025) 100%
+    to right,
+    rgba(255, 255, 255, 0.1) 10%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.025) 100%
   );
 }
 
